@@ -1,0 +1,109 @@
+<!--
+  Dieses ist ein HTML-Kommentar, den ich hier nutzen werde, um einzelne 
+  Elemente ein wenig zu beschreiben, er wird nach der Eckigen Klammer "<" mit 
+  der Zeichenfolge "!--" geöffnet und kann danach ein oder auch mehrzeilig sein.
+
+  Geschlossen wird er mit der folgenden Zeichenkombination:
+-->
+<!--
+  Als erstes steht die sog. Doctype-Description in jedem XML-artigen Dokument bei HTML5 wurde
+  diese angenehm verkürzt.
+-->
+<!DOCTYPE html>
+<!-- Dann geht es auch richtig los mit HTML, der HTML-Tag umschließt alles andere der 
+  Seite und enthätlt genau zwei Tags: HEAD und BODY - jeweils einmal ;)  -->
+<html>
+  <!-- Im Head stehen Dinge, die die Seite näher Beschreiben, soetwas wie der Titel, Metaangaben
+  Referenzen auf Scripte und Stylesheets -->
+  <head>
+    <!-- Hier der Tiel -->
+    <title>Interneting Is Easy!</title>
+  </head>
+  <!-- Inhalt kommt NUR in den Body-Tag-->
+  <body>
+    <!-- Als erstes eine Überschrift der ersten Ordnung h1, dieser Tag darf keinmal oder auch 
+      mehrfach vorkommen es sei jedoch sehr empfohlen, diesen genau einmal zu benutzen -->
+    <h1>Interneting Is Easy!</h1>
+    <!-- Text steht üblicherweise in sog. p-Tags, den Paragraphen -->
+    <p>First, we need to learn some basic HTML.</p>
+
+    <h2>Headings</h2>
+    <p>
+      Headings define the outline of your site. There are six levels of
+      headings.
+    </p>
+    <h3>
+      Überschrift dritter Ordnung
+    </h3>
+    <h4>
+      Quiete useless: Überschrift vierter Ordnung
+    </h4>
+    <h5>
+      Almost useles: Überschrift fünfter Ordnung
+    </h5>
+    <h6>
+      Useles AF: Überschrift sechster Ordnung
+    </h6>
+    <!--
+      Ungeordnete Listen kurz UL, diese enthalten einzelne Listenelemente: li
+    -->
+    <ul>
+      <li>Add a "ul" element (it stands for unordered list)</li>
+      <li>Add each item in its own "li" element</li>
+      <li>They don't need to be in any particular order</li>
+    </ul>
+
+    <p>This is what an ordered list looks like:</p>
+    <!--
+      Dan gibt es neben den ungeordneten Listen die geordneten Listen in engl. 
+      Ordered Lists kurz OL, die wie die geordneten Listen funktionieren
+    -->
+    <ol>
+      <li>Notice the new "ol" element wrapping everything</li>
+      <li>But, the list item elements are the same</li>
+      <li>Also note how the numbers increment on their own</li>
+      <li>
+        You should be noticing things is this precise order, because this is an
+        ordered list
+      </li>
+    </ol>
+    <!--
+      Dann gibt es eine Klasse von Elementen, die sog. Inline Elements, sie heißen so, weil sie 
+      im gegensatz zu den Boxed-Elementen, die häufig die gesamte Breite in Anspruch nehmen und 
+      bei denen Folgeelemente meist in der nächsten Zeile stehen.
+    -->
+    <h2>Inline Elements</h2>
+
+    <!-- 
+    Itallic == Emphasis aber i !== em
+    https://developer.mozilla.org/de/docs/Web/HTML/Element/em
+     -->
+    <p>
+      <em>Sometimes</em>, you need to draw attention to a <i>particular</i> word
+      or phrase.
+    </p>
+    <!-- Bold vs. Strong -->
+    <p>
+      Other times you need to <strong>strong</strong>ly emphasize the importance
+      of a word or <b>phrase</b>.
+    </p>
+
+    <!-- line breaks -->
+    <h2>Empty Elements</h2>
+
+    <p>Thanks for reading! Interneting should be getting easier now.</p>
+
+    <p>Regards, The Authors</p>
+    <hr />
+    <p>
+      Regards, <br />
+      The Authors
+    </p>
+
+    <!-- Trailing Slashes ????  -->
+
+    Der Unterscheid zwischen <br />
+    und <br />
+    ??
+  </body>
+</html>
