@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Links</title>
+  </head>
+  <body>
+    <h1>Links</h1>
+    <p>This example is about links:</p>
+        <ul>
+                <!-- 
+                  
+                  Relative Links sind immer relativ zur aktuellen Datei bezogen.
+                
+                  Man kann so relativ alles machen. Dennoch ein paar gut gemeinte Empfehlungen:
+                   - Kleinschreibung
+                   - Bintestriche und Unterstriche zur Trennung benutzen
+                   - KEINE Umlaute *
+                   - KEINE Leerzeichen *
+                   - KEINE Sonderzeichen *
+
+                   *: Es sei denn, man hat Langeweile und sucht gerne 2 Stunden nach Fehlern
+                -->
+                <li>Relative links, like to our <a href='misc/extras.html'>extras
+                    page</a>.</li>
+                <li><a href="images.html">Images (Again relative)</a></li>
+                <!-- 
+                  bsolute Links hingegen sind absolut zur Domain oder absolut auf das Dateisystem oder 
+                  Internet bezogen.
+                
+                  Ein weiteres Attribut ist das target-Attribut, es lässt folgende Werte zu:
+                  _self - ist bereits der Standard, der den Link im aktuellen Fenster öffnet
+                  _blank - für ein neues Fenster
+                  _parent - im Elternfenster
+                  _top - im Browserfenster
+                  NAME - aus den Framezeiten von Annodazumal - bitte einfach ignorieren wie 
+                  im besten Fall _parent und _top ebenfalls
+                  Mehr dazu unter: https://wiki.selfhtml.org/wiki/Referenz:HTML/Attribute/target
+                -->
+                <li>Absolute links, like to
+                  <a href='https://developer.mozilla.org/en-US/docs/Web/HTML' target="_blank">Mozilla
+                  Developer Network</a>, which is a very good resource for web
+                  developers.</li>
+        </ul>
+        
+  </body>
+</html>
