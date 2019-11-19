@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>jQuery und Formulare</title>
+    <link  rel="stylesheet"  href="css/normalize.css">
+    <link  rel="stylesheet"  href="css/skeleton.css">
+    <script src="js/jquery-3.4.1.min.js"></script>
+    <script>
+      
+    </script>
+    <style>
+        body {
+            margin-top: 6rem;
+        }
+      .right {
+        text-align: right;
+      }
+
+      .container {
+          width: 640px;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1>
+        Dead simple Contactform
+      </h1>
+
+      <form>
+        <div>
+          <label for="name">Dein Name</label>
+          <input 
+            class="u-full-width" 
+            id="name" 
+            name="name"
+            type="text"
+            placeholder="Max Mustermann"
+            required
+          />
+        </div>
+        <div>
+          <label for="email">Deine E-Mail</label>
+          <input class="u-full-width"  id="email" type="email" name="email" placeholder="mustermann@test.de" required />
+        </div>
+        <div>
+          <label for="text">Dein Wunsch</label>
+          <textarea class="u-full-width"  id="text" name="text" required></textarea>
+        </div>
+        <div class="right">
+        <button class="button-primary" type="submit">Send it</button>
+        </div>
+      </form>
+    </div>
+  </body>
+</html>
