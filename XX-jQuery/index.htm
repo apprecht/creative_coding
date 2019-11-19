@@ -30,9 +30,31 @@
         Dead simple Contactform
       </h1>
 
-      <form>
+      <!--
+          Das Formtag umschließt das gesammte Formular
+
+          Das Attribut method gibt die Sendemethode an, über die das Formular 
+          übertragen wird GET oder POST ist hier möglich.
+
+          Das action-Attribut zeigt an, an welche Seite das Formular gesendet werden soll.
+
+      -->
+      <form method="GET" action="send.htm">
         <div>
+            <!--
+                Label sind dafür da, um Formularfelder zu bezeichnen
+                das Attribut for zeigt auf eine ID des dazugerhörigen Input-Feldes
+            -->
           <label for="name">Dein Name</label>
+          <!-- 
+              Inputfelder sind die Eingabefelder von Formularen
+              
+              Attribute sind primär:
+               - name = Zur Bezeichnung des Feldes
+               - type = Ist es ein password-, ein text- email-Eingabefeld
+               - placeholder = Was soll im Feld stehen, wenn es noch keine Eingabe gibt? 
+               - required = Soll die Eingabe erforderlich sein
+           -->
           <input 
             class="u-full-width" 
             id="name" 
